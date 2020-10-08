@@ -35,6 +35,13 @@ def divides_self(num):
     # return True
     return True
 
+# def divides_self(num):
+#     value = [int(x) for x in str(num)]
+#     for v in value:
+#         if v == 0 or num % v != 0:
+#             return False
+#     return True
+
 print(divides_self(128)) # > True
 print(divides_self(12)) # > True
 print(divides_self(120)) # > False
